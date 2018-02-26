@@ -2,22 +2,26 @@
   "name": "interactive-page",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://github.com/SNicholson99/soc_bootcampApplication",
   "dependencies": {
+    "gh-pages": "^1.1.0",
+    "node-sass-chokidar": "0.0.3",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
-    "react-scripts": "1.1.1",
-    "node-sass-chokidar": "0.0.3",
     "react-router": "^4.2.0",
     "react-router-bootstrap": "^0.24.4",
-		"react-router-dom": "^4.2.2",
-		"react-router-scroll": "^0.4.4"
+    "react-router-dom": "^4.2.2",
+    "react-router-scroll": "^0.4.4",
+    "react-scripts": "1.1.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "build-css": "node-sass-chokidar --include-path ./src --include-path ./node_modules src/ -o src/",
-		"watch-css": "npm run build-css && node-sass-chokidar --include-path ./src --include-path ./node_modules src/ -o src/ --watch --recursive"
+    "watch-css": "npm run build-css && node-sass-chokidar --include-path ./src --include-path ./node_modules src/ -o src/ --watch --recursive"
   }
 }
