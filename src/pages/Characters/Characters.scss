@@ -1,0 +1,15 @@
+.charactersContainer {
+  position: absolute;
+  background: radial-gradient(rgb(189, 223, 237), rgb(40, 153, 201));
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  // justify-content: space-evenly;
+}
+
+.charactersTitle {
+  position: relative;
+  font-size: 4vw;
+  text-shadow: white 0.2vw 0.2vw;
+}

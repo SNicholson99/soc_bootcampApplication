@@ -1,0 +1,52 @@
+.landingContainer {
+  position: absolute;
+  background: radial-gradient(#bddfed, #2899c9);
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center; }
+
+.landingTitle {
+  position: absolute;
+  top: 5vh;
+  font-size: 8vw;
+  text-shadow: white 0.3vw 0.3vw;
+  padding: 0.2vw 0vw 10vw 0vw; }
+
+.landingLogo {
+  position: absolute;
+  top: 40vh;
+  max-height: 32vh;
+  max-width: 50vw;
+  animation: spin 1.5s 0s infinite paused; }
+
+.landingLogo:hover {
+  animation: spin 1.5s 0s infinite running; }
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(360deg); } }
+
+.landingButton {
+  position: absolute;
+  background-color: #fff;
+  font-size: 2vw;
+  padding: 2vw 4vw 2vw 4vw;
+  box-shadow: 3px 4px 2px 2px black;
+  border-radius: 10%;
+  text-decoration: none;
+  color: black;
+  max-width: 20vw;
+  max-height: 20vh;
+  bottom: 10vh; }
+
+.landingButton:hover {
+  box-shadow: 1px 2px black;
+  transform: translateX(1px) translateY(2px); }
+
+.landingButton:active {
+  background-color: lightgray; }

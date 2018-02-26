@@ -1,0 +1,35 @@
+.notFoundContainer {
+  position: absolute;
+  background: radial-gradient(#bddfed, #2899c9);
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.notFoundTitle {
+  font-size: 5vw; }
+
+.notFoundError {
+  font-style: italic; }
+
+.notFoundButton {
+  position: relative;
+  background-color: #fff;
+  font-size: 2vw;
+  padding: 2vw 4vw 2vw 4vw;
+  box-shadow: 3px 4px 2px 2px black;
+  border-radius: 10%;
+  text-decoration: none;
+  color: black;
+  max-width: 20vw;
+  max-height: 20vh;
+  margin: 2vw; }
+
+.notFoundButton:hover {
+  box-shadow: 1px 2px black;
+  transform: translateX(1px) translateY(2px); }
+
+.notFoundButton:active {
+  background-color: lightgray; }

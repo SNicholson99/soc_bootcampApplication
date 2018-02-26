@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P");
+.App {
+  text-align: center; }
+
+.title {
+  font-family: 'Press Start 2P', sans-serif; }
+
+.subheading {
+  font-family: 'Open Sans', sans-serif; }
